@@ -1,14 +1,15 @@
+"use strict";
 (function () {
-    var mensaje = 'hola';
-    var numero = 123;
-    var booleano = true;
-    var hoy = new Date;
-    var any;
+    let mensaje = 'hola';
+    let numero = 123;
+    let booleano = true;
+    let hoy = new Date;
+    let any;
     any = mensaje;
     any = numero;
     any = booleano;
     any = hoy;
-    var objectTest = {
+    let objectTest = {
         typeOne: 'Hi',
         typeTwo: 123
     };

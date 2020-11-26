@@ -6,7 +6,7 @@
     function sayGoodBye(name) {
         console.log('Goodbye' + ' ' + name);
     }
-    var WOLVERINE = {
+    const WOLVERINE = {
         name: 'Logan'
     };
     sayHello(WOLVERINE.name);
